@@ -1,0 +1,57 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import BgCircle from "./BgCircle";
+
+type Props = {};
+
+const Hero = (props: Props) => {
+  const [text] = useTypewriter({
+    words: ["Hi, I'm Aslinur", "Hello", "Merhaba"],
+    loop: true,
+    delaySpeed: 2000,
+  });
+  const [title] = useTypewriter({
+    words: ["Frontend Developer", "Senior"],
+    loop: true,
+    delaySpeed: 2000,
+  });
+
+  return (
+    <div className="h-screen flex flex-col items-start justify-center text-center space-y-8 overflow-hidden ">
+        <BgCircle/>
+      <Image
+        src="https://pbs.twimg.com/profile_images/1498758848596922375/W_jwX-XM_400x400.jpg"
+        alt=""
+        width={130}
+        height={130}
+        className="rounded-full"
+      />
+      <div className="z-20">
+        <h2 className="text-sm uppercase text-gray-300 pb-3 tracking-[12px]">
+          {title}
+          <Cursor cursorColor="#ca3131" />
+        </h2>
+        <h1 className="text-4xl lg:text-6xl font-semibold px-8">
+          <span>{text}</span>
+          <Cursor cursorColor="#ca3131" />
+        </h1>
+
+        <div className="pt-6">
+          <Link href="#about">
+            <button className="heroButton">About</button>
+          </Link>
+          <Link href="#skills">
+            <button className="heroButton">Skills</button>
+          </Link>
+          <Link href="#projects">
+            <button className="heroButton">Projects</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
