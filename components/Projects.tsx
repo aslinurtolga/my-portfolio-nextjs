@@ -15,7 +15,7 @@ const Projects = (props: Props) => {
       <h2 className="absolute top-[100px] uppercase text-gray-300 text-2xl tracking-[15px]">
         Projects
       </h2>
-      <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-red-500 scrollbar-thumb-gray-500">
         {projectsData.map((item, index) => (
           <div
             key={index}
