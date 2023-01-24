@@ -1,8 +1,21 @@
 import { motion } from "framer-motion";
 import { EnvelopeIcon, MapIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { useForm, SubmitHandler } from "react-hook-form";
+
 type Props = {};
 
+type InputType = {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+};
+
 const Contact = (props: Props) => {
+  const { register, handleSubmit } = useForm();
+
+  const onSubmit: SubmitHandler<InputType> = (formData) => {};
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -31,11 +44,27 @@ const Contact = (props: Props) => {
         </div>
         <form className="flex flex-col space-y-2 mx-auto">
           <div className="flex flex-col md:flex-row space-y-2 space-x-2 md:space-y-0">
-            <input className="contact-input" placeholder="Name" type="text" />
-            <input className="contact-input" placeholder="Email" type="email" />
+            <input
+              {...register("name")}
+              className="contact-input"
+              placeholder="Name"
+              type="text"
+            />
+            <input
+              {...register("email")}
+              className="contact-input"
+              placeholder="Email"
+              type="email"
+            />
           </div>
-          <input className="contact-input" placeholder="Subject" type="text" />
+          <input
+            {...register("subject")}
+            className="contact-input"
+            placeholder="Subject"
+            type="text"
+          />
           <textarea
+            {...register("message")}
             className="contact-input resize-none"
             placeholder="Message"
           />
