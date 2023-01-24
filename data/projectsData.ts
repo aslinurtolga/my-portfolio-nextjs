@@ -1,6 +1,4 @@
-import { Projects } from "@/types";
-
-export const projectsData: Projects[] = [
+export const projectsData = [
   {
     img: "https://media.licdn.com/dms/image/C4D22AQHF1VuK2OX-5Q/feedshare-shrink_2048_1536/0/1673616568442?e=1676505600&v=beta&t=2mAnfloe9vJEzTHrdft3QtqWBIjGBNb_BjdKwCpfSec",
     name: "NextJS Netflix App",
