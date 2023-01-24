@@ -38,7 +38,11 @@ const Projects = (props: Props) => {
               </p>
             </div>
             <div>
-              <a href={item.github} target="_blank">
+              <a
+                href={item.github}
+                target="_blank"
+                className="hover:bg-[#c3c] pr-4 py-2 rounded-md transition-all duration-200"
+              >
                 <SocialIcon
                   url={item.github}
                   fgColor="gray"
@@ -46,7 +50,11 @@ const Projects = (props: Props) => {
                 />
                 <span>Github</span>
               </a>
-              <a href={item.url} target="_blank">
+              <a
+                href={item.url}
+                target="_blank"
+                className="hover:bg-[#c3c] pr-4 ml-4 py-2 rounded-md transition-all duration-200"
+              >
                 <SocialIcon
                   url={item.url}
                   fgColor="gray"
