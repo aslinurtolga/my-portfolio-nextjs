@@ -18,8 +18,11 @@ const Projects = (props: Props) => {
         {projectsData.map((item, index) => (
           <div
             key={index}
-            className="w-screen snap-center flex flex-col items-center justify-center"
+            className="w-screen snap-center flex flex-col items-center justify-center h-screen flex-shrink-0 p-16"
           >
+            <a href={item.url} target="_blank">
+              <img src={item.img} alt={item.name}  className="md:max-w-md 2xl:max-2xl"/>
+            </a>
             <h4>{item.name}</h4>
           </div>
         ))}
