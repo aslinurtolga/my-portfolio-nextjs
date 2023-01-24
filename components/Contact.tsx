@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import {EnvelopeIcon, MapIcon, PhoneIcon} from "@heroicons/react/24/solid";
 type Props = {};
 
 const Contact = (props: Props) => {
@@ -14,8 +15,19 @@ const Contact = (props: Props) => {
       </h2>
       <div className="flex flex-col items-center ">
         <h3>Contact Me</h3>
-        <div>
-            
+        <div className="mt-5 space-y-4">
+          <div className="flex items-center justify-center space-x-4">
+            <PhoneIcon className="h-6 w-6 text-[#c3c]" />
+            <p className="text-xl">+056434363</p>
+          </div>
+          <div className="flex items-center justify-center space-x-4">
+            <EnvelopeIcon className="h-6 w-6 text-[#c3c]" />
+            <p className="text-xl">deneme@deneme.com</p>
+          </div>
+          <div className="flex items-center justify-center space-x-4">
+            <MapIcon className="h-6 w-6 text-[#c3c]" />
+            <p className="text-xl">USA/ Los Angeles </p>
+          </div>
         </div>
       </div>
     </motion.div>
