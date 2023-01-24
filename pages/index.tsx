@@ -1,6 +1,8 @@
+import { ArrowUpCircleIcon } from "@heroicons/react/24/solid";
 import { SlowBuffer } from "buffer";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Header from "../components/Header";
@@ -39,6 +41,14 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
         <Contact />
       </section>
+
+      <Link href="#hero">
+        <footer className="sticky bottom-10 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <ArrowUpCircleIcon className="h-10 w-10 hover:text-[#ca3131] transition-all duration-150" />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };

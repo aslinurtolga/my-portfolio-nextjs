@@ -12,10 +12,11 @@ type InputType = {
 };
 
 const Contact = (props: Props) => {
-  const { register, handleSubmit } = useForm<InputType>();
+  const { register, handleSubmit, reset } = useForm<InputType>();
 
   const onSubmit: SubmitHandler<InputType> = (formData) => {
-    window.location.href = `mailto: aslinurtolga@gmail.com`;
+    window.location.href = `mailto: aslinurtolga@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}. This is my email address: ${formData.email}`;
+    reset();
   };
 
   return (
