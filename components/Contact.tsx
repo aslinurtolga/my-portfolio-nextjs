@@ -35,9 +35,17 @@ const Contact = (props: Props) => {
             <input className="contact-input" placeholder="Email" type="email" />
           </div>
           <input className="contact-input" placeholder="Subject" type="text" />
-          <textarea className="contact-input" placeholder="Message" />
+          <textarea
+            className="contact-input resize-none"
+            placeholder="Message"
+          />
 
-          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            className="bg-[#ca3131] py-2 px-4 md:py-5 md:px-10 rounded-md text-white font-bold hover:opacity-70 transition-all duration-200"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </motion.div>
