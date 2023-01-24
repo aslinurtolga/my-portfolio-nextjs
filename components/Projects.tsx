@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 import { projectsData } from "../data/projectsData";
 
 type Props = {};
@@ -21,12 +22,38 @@ const Projects = (props: Props) => {
             className="w-screen snap-center flex flex-col items-center justify-center h-screen flex-shrink-0 p-16"
           >
             <a href={item.url} target="_blank">
-              <img src={item.img} alt={item.name}  className="md:max-w-md 2xl:max-2xl"/>
+              <img
+                src={item.img}
+                alt={item.name}
+                className="md:max-w-md 2xl:max-2xl"
+              />
             </a>
+            <div className="mt-6 mb-6 max-w-6xl ">
+              <h3 className="text-xl md:text-2xl font-semibold text-center">
+                <span>{item.language}</span> Study {index + 1} of{" "}
+                {projectsData.length} : {item.name}
+              </h3>
+              <p className="text-small md:text-lg text-center ">
+                {item.description}
+              </p>
+            </div>
             <div>
-                <h3>
-                    <span>{item.language}</span> Study {index+1} of {projectsData.length} : {item.name}
-                </h3>
+              <a href={item.github} target="_blank">
+                <SocialIcon
+                  url={item.github}
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+                <span>Github</span>
+              </a>
+              <a href={item.url} target="_blank">
+                <SocialIcon
+                  url={item.url}
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+                <span>Project</span>
+              </a>
             </div>
           </div>
         ))}
