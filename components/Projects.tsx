@@ -10,12 +10,12 @@ const Projects = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl items-center justify-evenly mx-auto px-10"
+      className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-full items-center justify-evenly mx-auto"
     >
       <h2 className="absolute top-[100px] uppercase text-gray-300 text-2xl tracking-[15px]">
         Projects
       </h2>
-      <div className="relative w-screen overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projectsData.map((item, index) => (
           <div
             key={index}
@@ -66,6 +66,7 @@ const Projects = (props: Props) => {
           </div>
         ))}
       </div>
+      <div className="w-full absolute top-[25%] bg-[#c3c]/20 right-0 h-[500px] skew-y-[15deg] " />
     </motion.div>
   );
 };
