@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 type Props = {
-    directionLeft?: boolean;
+  directionLeft?: boolean;
   item: {
     name: string;
     img: string;
@@ -11,7 +11,7 @@ const Skill = ({ item, directionLeft }: Props) => {
   return (
     <div className="flex cursor-pointer relative">
       <motion.img
-        initial={{ opacity: 0, x: directionLeft? -200 : 200 }}
+        initial={{ opacity: 0, x: directionLeft ? -200 : 200 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         src={item.img}
