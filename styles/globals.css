@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +6,10 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#55555] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#ca3131] hover:text-[#ddd]
+    @apply px-6 py-2 border border-[#55555] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#ca3131] hover:text-[#ddd];
   }
+}
+
+.contact-input {
+  @apply outline-none border border-slate-400/20 bg-slate-400/20 rounded-sm pl-6 pr-12 md:px-6 md:py-4 py-5 placeholder:text-gray-400 transition-all focus:border-[#ca3131];
 }

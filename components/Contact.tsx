@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import {EnvelopeIcon, MapIcon, PhoneIcon} from "@heroicons/react/24/solid";
+import { EnvelopeIcon, MapIcon, PhoneIcon } from "@heroicons/react/24/solid";
 type Props = {};
 
 const Contact = (props: Props) => {
@@ -29,6 +29,16 @@ const Contact = (props: Props) => {
             <p className="text-xl">USA/ Los Angeles </p>
           </div>
         </div>
+        <form className="flex flex-col space-y-2 mx-auto">
+          <div className="flex flex-col md:flex-row space-y-2 space-x-2 md:space-y-0">
+            <input className="contact-input" placeholder="Name" type="text" />
+            <input className="contact-input" placeholder="Email" type="email" />
+          </div>
+          <input className="contact-input" placeholder="Subject" type="text" />
+          <textarea className="contact-input" placeholder="Message" />
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </motion.div>
   );
