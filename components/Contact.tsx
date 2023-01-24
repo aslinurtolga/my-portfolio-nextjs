@@ -12,9 +12,11 @@ type InputType = {
 };
 
 const Contact = (props: Props) => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit } = useForm<InputType>();
 
-  const onSubmit: SubmitHandler<InputType> = (formData) => {};
+  const onSubmit: SubmitHandler<InputType> = (formData) => {
+    window.location.href = `mailto: aslinurtolga@gmail.com`;
+  };
 
   return (
     <motion.div
@@ -42,7 +44,10 @@ const Contact = (props: Props) => {
             <p className="text-xl">USA/ Los Angeles </p>
           </div>
         </div>
-        <form className="flex flex-col space-y-2 mx-auto">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="flex flex-col space-y-2 mx-auto"
+        >
           <div className="flex flex-col md:flex-row space-y-2 space-x-2 md:space-y-0">
             <input
               {...register("name")}
