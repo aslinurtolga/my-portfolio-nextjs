@@ -9,7 +9,7 @@ import Skills from "../components/Skills";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#323232] text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur ">
+    <div className="bg-[#323232] text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur ">
       <Head>
         <title>Hello</title>
         <link rel="icon" href="/favicon.ico" />
