@@ -8,24 +8,25 @@ type Props = {};
 
 const Hero = (props: Props) => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Aslinur", "Hello", "Merhaba"],
+    words: ["Hi, I'm Aslinur", "from Istanbul", "This is my portfolio"],
     loop: true,
     delaySpeed: 2000,
   });
   const [title] = useTypewriter({
-    words: ["Frontend Developer", "Senior"],
+    words: ["Frontend Developer", "ReactJS Developer"],
     loop: true,
     delaySpeed: 2000,
   });
 
   return (
     <div className="h-screen flex flex-col items-start justify-center text-center space-y-8 overflow-hidden ">
-        <BgCircle/>
+      <BgCircle />
       <Image
         src="https://pbs.twimg.com/profile_images/1498758848596922375/W_jwX-XM_400x400.jpg"
         alt=""
         width={130}
         height={130}
+        loading="lazy"
         className="rounded-full"
       />
       <div className="z-20">

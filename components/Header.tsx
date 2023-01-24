@@ -22,6 +22,11 @@ const Header = (props: Props) => {
           fgColor="gray"
           bgColor="transparent"
         />
+        <SocialIcon
+          url="https://twitter.com/aslinurtolga"
+          fgColor="gray"
+          bgColor="transparent"
+        />
       </motion.div>
       <Link href="#contact">
         <motion.div
