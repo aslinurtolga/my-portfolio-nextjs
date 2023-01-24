@@ -23,7 +23,11 @@ const Projects = (props: Props) => {
             <a href={item.url} target="_blank">
               <img src={item.img} alt={item.name}  className="md:max-w-md 2xl:max-2xl"/>
             </a>
-            <h4>{item.name}</h4>
+            <div>
+                <h3>
+                    <span>{item.language}</span> Study {index+1} of {projectsData.length} : {item.name}
+                </h3>
+            </div>
           </div>
         ))}
       </div>
