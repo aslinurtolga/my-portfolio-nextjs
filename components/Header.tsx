@@ -8,17 +8,19 @@ const Header = (props: Props) => {
   const { theme, setTheme } = useTheme();
   return (
     <header className="sticky top-0 p-5 flex items-center justify-between max-w-7xl mx-auto z-20 ">
-      <div>
-        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-          Day/Night
-        </button>
-      </div>
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center"
       >
+        <div>
+          <button
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            Day/Night
+          </button>
+        </div>
         <SocialIcon
           url="https://github.com/aslinurtolga"
           fgColor="gray"
