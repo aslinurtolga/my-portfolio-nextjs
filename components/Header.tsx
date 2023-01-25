@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
+import SunIcon from "./SunIcon";
+import MoonIcon from "./MoonIcon";
 type Props = {};
 
 const Header = (props: Props) => {
@@ -18,7 +20,7 @@ const Header = (props: Props) => {
           <button
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
-            Day/Night
+            {theme === "light" ? <SunIcon/> : <MoonIcon/>}
           </button>
         </div>
         <SocialIcon
