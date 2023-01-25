@@ -1,11 +1,18 @@
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import { useTheme } from "next-themes";
 type Props = {};
 
 const Header = (props: Props) => {
+  const { theme, setTheme } = useTheme();
   return (
     <header className="sticky top-0 p-5 flex items-center justify-between max-w-7xl mx-auto z-20 ">
+      <div>
+        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          Day/Night
+        </button>
+      </div>
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
