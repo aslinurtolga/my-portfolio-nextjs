@@ -45,7 +45,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
         <footer className="sticky bottom-10 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <ArrowUpCircleIcon className="h-10 w-10 hover:text-[#ca3131] transition-all duration-150" />
+            <ArrowUpCircleIcon className="h-10 w-10 hover:text-[#ca3131] transition-all duration-150 dark:text-gray-700 dark:hover:text-gray-500" />
           </div>
         </footer>
       </Link>

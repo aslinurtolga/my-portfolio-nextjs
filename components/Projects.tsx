@@ -66,7 +66,7 @@ const Projects = (props: Props) => {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[25%] bg-[#c3c]/20 right-0 h-[500px] skew-y-[15deg] " />
+      <div className="w-full absolute top-[25%] bg-[#c3c]/20 right-0 h-[500px] skew-y-[-15deg] " />
     </motion.div>
   );
 };
