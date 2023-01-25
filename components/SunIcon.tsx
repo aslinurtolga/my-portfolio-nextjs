@@ -21,10 +21,10 @@ const SunIcon = (props: Props) => {
   return (
     <motion.svg
       key="sun"
-      width="1em"
-      height="1em"
+      width="30px"
+      height="30px"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="#FDB813"
       xmlns="http://www.w3.org/2000/svg"
       whileTap={whileTap}
       // Centers the rotation anchor point vertically & horizontally
@@ -34,7 +34,7 @@ const SunIcon = (props: Props) => {
         cx="11.9998"
         cy="11.9998"
         r="5.75375"
-        fill="currentColor"
+        fill="#FDB813"
         initial="initial"
         animate="animate"
         variants={coreVariants}
@@ -45,31 +45,31 @@ const SunIcon = (props: Props) => {
           cy="6.85502"
           r="1.71143"
           transform="rotate(-60 3.08982 6.85502)"
-          fill="currentColor"
+          fill="#FDB813"
         />
         <circle
           cx="3.0903"
           cy="17.1436"
           r="1.71143"
           transform="rotate(-120 3.0903 17.1436)"
-          fill="currentColor"
+          fill="#FDB813"
         />
-        <circle cx="12" cy="22.2881" r="1.71143" fill="currentColor" />
+        <circle cx="12" cy="22.2881" r="1.71143" fill="#FDB813" />
         <circle
           cx="20.9101"
           cy="17.1436"
           r="1.71143"
           transform="rotate(-60 20.9101 17.1436)"
-          fill="currentColor"
+          fill="#FDB813"
         />
         <circle
           cx="20.9101"
           cy="6.8555"
           r="1.71143"
           transform="rotate(-120 20.9101 6.8555)"
-          fill="currentColor"
+          fill="#FDB813"
         />
-        <circle cx="12" cy="1.71143" r="1.71143" fill="currentColor" />
+        <circle cx="12" cy="1.71143" r="1.71143" fill="#FDB813" />
       </motion.g>
     </motion.svg>
   );
