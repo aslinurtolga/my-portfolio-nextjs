@@ -18,27 +18,25 @@ const Header = (props: Props) => {
       >
         <SocialIcon
           url="https://github.com/aslinurtolga"
-          fgColor="gray"
+          fgColor="#626974"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/aslinurtolga/"
-          fgColor="gray"
+          fgColor="#626974"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://twitter.com/aslinurtolga"
-          fgColor="gray"
+          fgColor="#626974"
           bgColor="transparent"
         />
       </motion.div>
-        <div>
-          <button
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-          >
-            {theme === "light" ?   <MoonIcon/> :<SunIcon/>}
-          </button>
-        </div>
+      <div>
+        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          {theme === "light" ? <MoonIcon /> : <SunIcon />}
+        </button>
+      </div>
       <Link href="#contact">
         <motion.div
           initial={{ x: +500, opacity: 0, scale: 0.5 }}
@@ -46,8 +44,8 @@ const Header = (props: Props) => {
           transition={{ duration: 1.5 }}
           className="flex flex-row items-center text-gray-300"
         >
-          <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
-          <p className="uppercase hidden md:inline-flex text-sm">
+          <SocialIcon network="email" fgColor="#626974" bgColor="transparent" />
+          <p className="uppercase text-[#626974] font-semibold hidden md:inline-flex text-sm">
             Get In Touch
           </p>
         </motion.div>
