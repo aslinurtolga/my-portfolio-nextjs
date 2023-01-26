@@ -16,13 +16,6 @@ const Header = (props: Props) => {
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center"
       >
-        <div>
-          <button
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-          >
-            {theme === "light" ? <SunIcon/> : <MoonIcon/>}
-          </button>
-        </div>
         <SocialIcon
           url="https://github.com/aslinurtolga"
           fgColor="gray"
@@ -39,6 +32,13 @@ const Header = (props: Props) => {
           bgColor="transparent"
         />
       </motion.div>
+        <div>
+          <button
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            {theme === "light" ?   <MoonIcon/> :<SunIcon/>}
+          </button>
+        </div>
       <Link href="#contact">
         <motion.div
           initial={{ x: +500, opacity: 0, scale: 0.5 }}

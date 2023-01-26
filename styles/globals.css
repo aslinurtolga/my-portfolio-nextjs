@@ -13,3 +13,12 @@
 .contact-input {
   @apply outline-none border border-slate-400/20 bg-slate-400/20 rounded-sm pl-6 pr-12 md:px-6 md:py-4 py-5 placeholder:text-gray-400 transition-all focus:border-[#ca3131] hover:border-[#ca3131]/50;
 }
+
+/* .bgColor {
+  --tw-gradient-to: #111827;
+  --tw-gradient-to: rgb(243 244 246 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #f3f4f6, var(--tw-gradient-to);
+  --tw-gradient-from: #111827;
+  --tw-gradient-to: rgb(17 24 39 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+} */

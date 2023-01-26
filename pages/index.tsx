@@ -12,7 +12,7 @@ import Skills from "../components/Skills";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#323232] dark:bg-[#eee] text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur scrollbar scrollbar-track-red-500 scrollbar-thumb-green-500 ">
+    <div className="bg-[#FCE2DB] text-gray-700 dark:bg-gray-900 dark:text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur scrollbar scrollbar-track-red-500 scrollbar-thumb-green-500 ">
       <Head>
         <title>Hello</title>
         <link rel="icon" href="/favicon.ico" />
