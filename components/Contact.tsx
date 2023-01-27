@@ -26,30 +26,30 @@ const Contact = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl items-center justify-evenly mx-auto px-10"
     >
-      <h2 className="absolute top-[100px] uppercase text-gray-600  text-2xl tracking-[15px]">
+      <h2 className="absolute top-[70px] uppercase text-gray-600  text-2xl tracking-[15px]">
         Contact
       </h2>
       <div className="flex flex-col items-center ">
-        <h3>Contact Me</h3>
+        <h3 className="text-2xl mt-14 text-center">Contact Me</h3>
         <div className="mt-5 space-y-4">
           <div className="flex items-center justify-center space-x-4">
-            <PhoneIcon className="h-6 w-6 text-[#c3c]" />
-            <p className="text-xl">+056434363</p>
+            <PhoneIcon className="h-6 w-6 text-[#3F3B6C] dark:text-[#ca3131]" />
+            <p className="text-xl">+90 534 912 63 48</p>
           </div>
           <div className="flex items-center justify-center space-x-4">
-            <EnvelopeIcon className="h-6 w-6 text-[#c3c]" />
-            <p className="text-xl">deneme@deneme.com</p>
+            <EnvelopeIcon className="h-6 w-6 text-[#3F3B6C] dark:text-[#ca3131]" />
+            <p className="text-xl">aslinurtolga@gmail.com</p>
           </div>
           <div className="flex items-center justify-center space-x-4">
-            <MapIcon className="h-6 w-6 text-[#c3c]" />
-            <p className="text-xl">USA/ Los Angeles </p>
+            <MapIcon className="h-6 w-6 text-[#3F3B6C] dark:text-[#ca3131]" />
+            <p className="text-xl">Istanbul / Turkiye</p>
           </div>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 mx-auto"
+          className="flex flex-col space-y-2 mx-auto mt-5"
         >
-          <div className="flex flex-col md:flex-row space-y-2 space-x-2 md:space-y-0">
+          <div className="flex flex-col md:flex-row space-y-2 md:space-x-2 md:space-y-0">
             <input
               {...register("name")}
               className="contact-input"
