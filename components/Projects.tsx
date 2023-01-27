@@ -15,7 +15,7 @@ const Projects = (props: Props) => {
       <h2 className="absolute top-[100px] uppercase text-gray-600 text-2xl tracking-[15px]">
         Projects
       </h2>
-      <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-red-500 scrollbar-thumb-gray-500">
+      <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-[#F0997D] dark:scrollbar-track-[#BBBBBB] scrollbar-thumb-[#A75D5D] dark:scrollbar-thumb-[#38424e] ">
         {projectsData.map((item, index) => (
           <div
             key={index}
@@ -41,7 +41,7 @@ const Projects = (props: Props) => {
               <a
                 href={item.github}
                 target="_blank"
-                className="hover:bg-[#F2DEBA]/60 pr-4 py-2 rounded-md transition-all duration-200"
+                className="hover:bg-[#F2DEBA]/60 pr-4 py-2 dark:hover:bg-gray-700/70 rounded-md transition-all duration-200"
               >
                 <SocialIcon
                   url={item.github}
@@ -53,7 +53,7 @@ const Projects = (props: Props) => {
               <a
                 href={item.url}
                 target="_blank"
-                className="hover:bg-[#F2DEBA]/60 pr-4 ml-4 py-2 rounded-md transition-all duration-200"
+                className="hover:bg-[#F2DEBA]/60 dark:hover:bg-gray-700/70 pr-4 ml-4 py-2 rounded-md transition-all duration-200"
               >
                 <SocialIcon
                   url={item.url}
