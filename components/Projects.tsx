@@ -12,7 +12,7 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-full items-center justify-evenly mx-auto"
     >
-      <h2 className="absolute top-[100px] uppercase text-gray-600  text-2xl tracking-[15px]">
+      <h2 className="absolute top-[100px] uppercase text-gray-600 text-2xl tracking-[15px]">
         Projects
       </h2>
       <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-red-500 scrollbar-thumb-gray-500">
@@ -41,7 +41,7 @@ const Projects = (props: Props) => {
               <a
                 href={item.github}
                 target="_blank"
-                className="hover:bg-[#c3c] pr-4 py-2 rounded-md transition-all duration-200"
+                className="hover:bg-[#F2DEBA]/60 pr-4 py-2 rounded-md transition-all duration-200"
               >
                 <SocialIcon
                   url={item.github}
@@ -53,7 +53,7 @@ const Projects = (props: Props) => {
               <a
                 href={item.url}
                 target="_blank"
-                className="hover:bg-[#c3c] pr-4 ml-4 py-2 rounded-md transition-all duration-200"
+                className="hover:bg-[#F2DEBA]/60 pr-4 ml-4 py-2 rounded-md transition-all duration-200"
               >
                 <SocialIcon
                   url={item.url}
@@ -66,7 +66,7 @@ const Projects = (props: Props) => {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[25%] bg-[#c3c]/20 right-0 h-[500px] skew-y-[-15deg] " />
+      <div className="w-full absolute top-[25%] bg-[#916BBF]/30 dark:bg-[#cf0d0a]/40 right-0 h-[500px] skew-y-[-15deg] " />
     </motion.div>
   );
 };

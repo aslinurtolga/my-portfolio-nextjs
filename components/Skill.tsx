@@ -26,7 +26,7 @@ const Skill = ({ item, directionLeft }: Props) => {
         className="absolute opacity-0 hover:opacity-80 transition-all duration-300 hover:bg-[#323232] w-12 h-12 xl:w-24 xl:h-24 dark:bg-[#aaa]"
       >
         <div className="flex items-center justify-center h-full">
-          <p className="text-xs xl:text-lg text-white opacity-100">
+          <p className="text-xs xl:text-base text-white opacity-100">
             {item.name}
           </p>
         </div>
