@@ -8,7 +8,7 @@ const BgCircle = (props: Props) => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{
-        opacity: [0.1, 0.2, 0.4, 0.8, 0.1],
+        opacity: [0.1, 0.3, 0.4, 0.8, 0.2],
         scale: [1, 2, 2, 3, 1],
       }}
       transition={{ duration: 2 }}

@@ -12,7 +12,7 @@ import Skills from "../components/Skills";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#FCE2DB] text-gray-700 dark:bg-gray-900 dark:text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur scrollbar scrollbar-track-red-500 scrollbar-thumb-green-500 ">
+    <div className="bg-[#F2DEBA] text-gray-700 dark:bg-gray-900 dark:text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 font-Aslinur scrollbar scrollbar-track-red-500 scrollbar-thumb-green-500 ">
       <Head>
         <title>Hello</title>
         <link rel="icon" href="/favicon.ico" />
@@ -27,17 +27,14 @@ const Home: NextPage = () => {
         <About />
       </section>
 
-      {/* Skills */}
       <section id="skills" className="snap-start">
         <Skills />
       </section>
 
-      {/* Projects */}
       <section id="projects" className="snap-start">
         <Projects />
       </section>
 
-      {/* Contact */}
       <section id="contact" className="snap-start">
         <Contact />
       </section>
@@ -45,7 +42,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
         <footer className="sticky bottom-10 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <ArrowUpCircleIcon className="h-10 w-10 hover:text-[#ca3131] transition-all duration-150 dark:text-gray-700 dark:hover:text-gray-500" />
+            <ArrowUpCircleIcon className="h-10 w-10 hover:text-indigo-900 dark:hover:text-red-500 transition-all duration-150 dark:text-gray-700 text-gray-500" />
           </div>
         </footer>
       </Link>
