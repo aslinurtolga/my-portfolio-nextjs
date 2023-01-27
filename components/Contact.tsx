@@ -26,7 +26,7 @@ const Contact = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl items-center justify-evenly mx-auto px-10"
     >
-      <h2 className="absolute top-[70px] uppercase text-gray-600  text-2xl tracking-[15px]">
+      <h2 className="absolute top-[82px] uppercase text-gray-600  text-2xl tracking-[15px]">
         Contact
       </h2>
       <div className="flex flex-col items-center ">
@@ -77,7 +77,7 @@ const Contact = (props: Props) => {
 
           <button
             type="submit"
-            className="bg-[#ca3131] py-2 px-4 md:py-5 md:px-10 rounded-md text-white font-bold hover:opacity-70 transition-all duration-200"
+            className="bg-indigo-900/70 dark:bg-[#ca3131] py-2 px-4 md:py-5 md:px-10 rounded-md text-white font-bold hover:opacity-70 transition-all duration-200"
           >
             Submit
           </button>

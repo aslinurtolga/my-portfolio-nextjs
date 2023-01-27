@@ -11,5 +11,5 @@
 }
 
 .contact-input {
-  @apply outline-none border border-slate-400/20 bg-slate-400/20 rounded-sm pl-6 pr-12 md:px-6 md:py-4 py-5 placeholder:text-gray-400 transition-all focus:border-[#ca3131] hover:border-[#ca3131]/50;
+  @apply outline-none border border-slate-400/20 bg-[#FFFBF5]/20  rounded-sm pl-6 pr-12 md:px-6 md:py-4 py-5 placeholder-gray-700 transition-all focus:border-[#916BBF] hover:border-[#916BBF]/50;
 }
