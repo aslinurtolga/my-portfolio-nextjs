@@ -30,7 +30,7 @@ const Hero = (props: Props) => {
         className="rounded-full"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase  text-gray-700 dark:text-gray-200 pb-3 tracking-[12px]">
+        <h2 className="text-sm uppercase text-gray-700 dark:text-gray-300 pb-3 tracking-[12px]">
           {title}
           <Cursor cursorColor="#ca3131" />
         </h2>
@@ -46,7 +46,7 @@ const Hero = (props: Props) => {
             </button>
           </Link>
           <Link href="#skills">
-            <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+            <button className="heroButton text-[#626974]  hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
               Skills
             </button>
           </Link>

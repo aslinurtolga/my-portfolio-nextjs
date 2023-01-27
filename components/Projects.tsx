@@ -12,7 +12,7 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-full items-center justify-evenly mx-auto"
     >
-      <h2 className="absolute top-[100px] uppercase text-gray-300 text-2xl tracking-[15px]">
+      <h2 className="absolute top-[100px] uppercase text-gray-600  text-2xl tracking-[15px]">
         Projects
       </h2>
       <div className="relative w-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-red-500 scrollbar-thumb-gray-500">
