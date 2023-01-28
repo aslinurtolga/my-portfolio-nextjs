@@ -45,7 +45,7 @@ const Header = (props: Props) => {
           className="flex flex-row items-center text-gray-300"
         >
           <SocialIcon network="email" fgColor="#626974" bgColor="transparent" />
-          <p className="uppercase text-[#626974] font-semibold hidden md:inline-flex text-sm">
+          <p className="uppercase text-[#626974] font-semibold hidden md:inline-flex text-sm ">
             Get In Touch
           </p>
         </motion.div>

@@ -24,7 +24,9 @@ const About = (props: Props) => {
         className="w-48 h-48  rounded-full md:rounded-tl-md	 md:h-[300px] md:w-72 -mb-20 md:mb-0"
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h3 className="text-3xl font-semibold">Hi, I am Aslinur Tolga</h3>
+        <h3 className="text-3xl font-semibold text-indigo-900 dark:text-[#ca3131] ">
+          Hi, I am Aslinur Tolga
+        </h3>
         <p>
           I graduated from Full Stack Developer Bootcamp in Virginia, USA. I'm
           styling Tailwind, Styled Component using React, Next.js, Typescript
