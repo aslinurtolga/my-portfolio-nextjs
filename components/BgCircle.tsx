@@ -17,7 +17,7 @@ const BgCircle = (props: Props) => {
       <div className="absolute border border-[#55555 rounded-full h-[200px] w-[200px] mt-48 animate-ping " />
       <div className="absolute border border-[#55555 rounded-full h-[300px] w-[300px] mt-48 animate-ping" />
       <div className="absolute border border-[#55555 rounded-full h-[500px] w-[500px] mt-48 animate-ping" />
-      <div className="absolute border border-[#ca3131 opacity-25 rounded-full h-[650px] w-[650px] mt-48 animate-pulse" />
+      <div className="absolute border border-[#ca3131 opacity-20 rounded-full h-[650px] w-[650px] mt-48 animate-pulse" />
       <div className="absolute border border-[#55555 rounded-full h-[800px] w-[800px] mt-48 animate-pulse" />
     </motion.div>
   );
