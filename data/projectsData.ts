@@ -89,7 +89,7 @@ export const projectsData = [
     github: "https://github.com/murathudavendigar/brawl-stars-api-react",
   },
   {
-    img: "https://s3.gifyu.com/images/weather-app.gif",
+    img: "https://github.com/aslinurtolga/githubProfileAPI/blob/main/images/github2.gif",
 
     name: "Github Profile with Pure JS",
     description:
