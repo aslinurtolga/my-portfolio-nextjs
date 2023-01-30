@@ -91,11 +91,11 @@ export const projectsData = [
   {
     img: "https://s3.gifyu.com/images/weather-app.gif",
 
-    name: "Weather App with Pure JS",
+    name: "Github Profile with Pure JS",
     description:
-      "A web application made using Pure JavaScript that shows the instant weather conditions of the cities with GIFs.",
-    url: "https://thunderous-arithmetic-1b6a1f.netlify.app/",
+      "A web application made using Pure JavaScript that displays their account with GIFs by entering a github username.",
+    url: "https://aslinurtolga.github.io/githubProfileAPI/",
     language: "JavaScript",
-    github: "https://github.com/murathudavendigar/weather-app",
+    github: "https://github.com/aslinurtolga/githubProfileAPI",
   },
 ];
