@@ -80,16 +80,16 @@ export const projectsData = [
     github: "https://github.com/murathudavendigar/fireblog-app-react",
   },
   {
-    img: "https://user-images.githubusercontent.com/109613328/205418052-65c5665b-1189-49d5-b4aa-2e3346571575.gif",
-    name: "Brawl Stars App",
+    img: "https://github.com/aslinurtolga/tourPlaces/blob/main/tourplaces.gif?raw=true",
+    name: "Tour Places",
     description:
-      "A web application that I prepared to work with React JS using the Brawl Stars API.",
-    url: "https://brawl-stars-api-react.vercel.app/",
+      "A web application that I prepared to work with React JS using the Tour Places.",
+    url: "https://aslinurtolga.netlify.app/",
     language: "React.JS",
-    github: "https://github.com/murathudavendigar/brawl-stars-api-react",
+    github: "https://github.com/aslinurtolga/tourPlaces",
   },
   {
-    img: "https://github.com/aslinurtolga/githubProfileAPI/blob/main/images/github2.gif",
+    img: "https://s3.gifyu.com/images/weather-app.gif",
 
     name: "Github Profile with Pure JS",
     description:
