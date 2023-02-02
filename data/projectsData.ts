@@ -72,7 +72,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/random-user-app",
   },
   {
-    img: "https://camo.githubusercontent.com/0f30b41c5edd5f932987b7865966241537e77ca9db81b3e9f7153c26b99e3a21/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f433444323241514731544e506b5056574e68772f6665656473686172652d736872696e6b5f3830302f302f313636393832333537363632383f653d3136373539303038303026763d6265746126743d714f5a4f523978596535662d6a6d4c724176744574577851492d6f4b346d56634b3249306b6d575f327730",
+    img: "https://gifyu.com/image/Smr8M",
     name: "Image Gallery",
     description:
       "Project aims get information about Language Cards App via a Javascript React.",
@@ -81,7 +81,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/language-cards",
   },
   {
-    img: "https://github.com/aslinurtolga/tourPlaces/blob/main/tourplaces.gif?raw=true",
+    img: "https://gifyu.com/image/Smr88",
     name: "Tour Places",
     description:
       "A web application that I prepared to work with React JS using the Tour Places.",
@@ -90,7 +90,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/tourPlaces",
   },
   {
-    img: "https://s3.gifyu.com/images/weather-app.gif",
+    img: "https://gifyu.com/image/Smr8Y",
 
     name: "Github Profile with Pure JS",
     description:
