@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     img: "https://github.com/aslinurtolga/random-user-app/blob/main/randomuser.gif?raw=true",
-    name: "Linktree Clone",
+    name: "Random User App",
     description:
       "Project aims get information about Random User App via a Javascript React.",
     url: "https://randomuserapp1.netlify.app/",
@@ -72,7 +72,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/random-user-app",
   },
   {
-    img: "https://gifyu.com/image/Smr8M",
+    img: "https://github.com/aslinurtolga/image-gallery/blob/main/src/components/Animation.gif?raw=true",
     name: "Image Gallery",
     description:
       "Project aims get information about Language Cards App via a Javascript React.",
@@ -81,7 +81,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/language-cards",
   },
   {
-    img: "https://gifyu.com/image/Smr88",
+    img: "https://github.com/aslinurtolga/tourPlaces/blob/main/tourplaces.gif?raw=true",
     name: "Tour Places",
     description:
       "A web application that I prepared to work with React JS using the Tour Places.",
@@ -90,7 +90,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/tourPlaces",
   },
   {
-    img: "https://gifyu.com/image/Smr8Y",
+    img: "https://github.com/aslinurtolga/githubProfileAPI/blob/main/images/github2.gif?raw=true",
 
     name: "Github Profile with Pure JS",
     description:

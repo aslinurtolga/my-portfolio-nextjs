@@ -1,5 +1,4 @@
 import { ArrowUpCircleIcon } from "@heroicons/react/24/solid";
-import { SlowBuffer } from "buffer";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
