@@ -17,7 +17,7 @@ const Skills = (props: Props) => {
         Skills
       </h2>
 
-      <div className="grid grid-cols-3 xl:grid-cols-4 gap-5 xl:gap-6">
+      <div className="grid  grid-cols-3 xl:grid-cols-4 gap-5 xl:gap-6">
         {skillsData.map((item, index) =>
           index % 2 == 0 ? (
             <Skill key={index} item={item} />
