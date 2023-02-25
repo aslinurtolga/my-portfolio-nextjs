@@ -36,4 +36,14 @@ export const projectsData = [
     language: "JavaScript",
     github: "https://github.com/aslinurtolga/githubProfileAPI",
   },
+  {
+    img: "https://github.com/aslinurtolga/reactjs-website-from-scratch/blob/main/src/assets/travel.gif",
+
+    name: "SPX TRVL Reactjs Website From Scratch",
+    description:
+      "Project aims get information about SPX TRVL Reactjs Website From Scratch App via a Javascript React",
+    url: "https://reactjs-website-from-scratch.vercel.app/",
+    language: "JavaScript",
+    github: "https://github.com/aslinurtolga/reactjs-website-from-scratch",
+  },
 ];
