@@ -43,7 +43,7 @@ export const projectsData = [
     description:
       "Project aims get information about SPX TRVL Reactjs Website From Scratch App via a Javascript React",
     url: "https://reactjs-website-from-scratch.vercel.app/",
-    language: "JavaScript",
+    language: "React.js",
     github: "https://github.com/aslinurtolga/reactjs-website-from-scratch",
   },
 ];
