@@ -37,7 +37,7 @@ export const projectsData = [
     github: "https://github.com/aslinurtolga/githubProfileAPI",
   },
   {
-    img: "https://github.com/aslinurtolga/reactjs-website-from-scratch/blob/main/src/assets/travel.gif",
+    img: "https://github.com/aslinurtolga/reactjs-website-from-scratch/blob/main/src/assets/travel.gif?raw=true",
 
     name: "SPX TRVL Reactjs Website From Scratch",
     description:
