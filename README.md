@@ -1,27 +1,59 @@
-# Next.js + Tailwind CSS Example
+My Portfolio Next.js
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Animation of the Website
 
-## Deploy your own
+![image](./assets/portfolio.gif)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Visulation of the Website
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![image](./assets/portfolio.img.png )
 
-## How to use
+## Description
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Project aims get information about My Personal Portfolio via a Javascript React with Next.js framework.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+## Learning Outcomes
+
+At the end of the this project, you will be able to;
+
+- improve coding skills within ReactJS, Typescript, Next.js, Tailwindcss, Framer Motion.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+# Getting Started with Create React App
+
 ```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+Contact App (folder)
+|
+|----readme.md
+SOLUTION
+├── styles
+├── pages
+├── data
+├── components
+│     └── About.tsx
+│     └── BgCircle.tsx
+│     └── Contact.tsx
+│     └── Header.tsx
+│     └── MoonIcon.tsx
+│     └── Projects.tsx
+│     └── Skill.tsx
+│     └── Skills.tsx
+│     └── SunIcon.tsx
+├── public
+│    ├── components
+│    │       ├── form
+│    │       │     └── Form.js
+│    │       └── table
+│    │             └── Table.js
+│    ├── utils
+│    │       ├── customToastify.js
+│    │       ├── functions.js
+│    │       └── firebase.js
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    ├── Animation.gif
+│    └── index.css
+├── package.json
+└── yarn.lock
 ```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
