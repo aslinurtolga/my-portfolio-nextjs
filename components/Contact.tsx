@@ -33,10 +33,6 @@ const Contact = (props: Props) => {
         <h3 className="text-2xl mt-14 text-center">Contact Me</h3>
         <div className="mt-5 space-y-4">
           <div className="flex items-center justify-center space-x-4">
-            <PhoneIcon className="h-6 w-6 text-[#3F3B6C] dark:text-[#ca3131]" />
-            <p className="text-xl">+90 534 912 63 48</p>
-          </div>
-          <div className="flex items-center justify-center space-x-4">
             <EnvelopeIcon className="h-6 w-6 text-[#3F3B6C] dark:text-[#ca3131]" />
             <p className="text-xl">aslinurtolga@gmail.com</p>
           </div>
