@@ -2,19 +2,11 @@ My Portfolio Next.js
 
 ## Animation of the Website
 
-<<<<<<< HEAD
 ![image](./assets/portfolio.gif)
 
 ## Visulation of the Website
 
-![image](./assets/portfolio.img.png )
-=======
-![image](./...)
-
-## Visulation of the Website
-
-![image](./....)
->>>>>>> bafc675fc1343881333cc411455eeceed9130988
+![image](./assets/portfolio.img.png)
 
 ## Description
 
@@ -34,6 +26,7 @@ Contact App (folder)
 |
 |----readme.md
 SOLUTION
+├── assets
 ├── styles
 ├── pages
 ├── data
