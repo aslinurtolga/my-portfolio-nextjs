@@ -19,7 +19,7 @@ const About = (props: Props) => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        src="https://pbs.twimg.com/profile_images/1650174695033954306/CapZySr__400x400.jpg"
+        src="https://pbs.twimg.com/profile_images/1658410759687159808/v0-HuKj5_400x400.jpg"
         alt=""
         className="w-48 h-48 rounded-full md:rounded-tl-md md:h-[300px] md:w-72 -mb-20 md:mb-0"
       />
