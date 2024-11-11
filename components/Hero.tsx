@@ -22,7 +22,7 @@ const Hero = (props: Props) => {
     <div className="h-screen flex flex-col items-center justify-center text-center space-y-8 overflow-hidden">
       <BgCircle />
       <Image
-        src="https://pbs.twimg.com/profile_images/1658410759687159808/v0-HuKj5_400x400.jpg"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQFrubCF18joHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701159993067?e=1736985600&v=beta&t=3i0kTqqn8NltyW1iRctp9MQcvoLIHhh27FWFF_Z-Nnk"
         alt="image"
         width={130}
         height={130}
