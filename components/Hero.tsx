@@ -39,24 +39,26 @@ const Hero = (props: Props) => {
           <Cursor cursorColor="#ca3131" />
         </h1>
 
-        <div className="pt-6 ">
-          <Link href="#about">
-            <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
-              About
-            </button>
-          </Link>
-          <Link href="#skills">
-            <button className="heroButton text-[#626974]  hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
-              Skills
-            </button>
-          </Link>
-          <Link href="#projects">
-            <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
-              Projects
-            </button>
-          </Link>
-        </div>
-      </div>
+        <div className="pt-6">
+  <div className="space-x-4">
+    <Link href="#about">
+      <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+        About
+      </button>
+    </Link>
+    <Link href="#skills">
+      <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+        Skills
+      </button>
+    </Link>
+    <Link href="#projects">
+      <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+        Projects
+      </button>
+    </Link>
+  </div>
+</div>
+
     </div>
   );
 };
